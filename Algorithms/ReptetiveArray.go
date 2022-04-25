@@ -1,4 +1,5 @@
 package main
+
 import (
 	"fmt"
 	"sort"
@@ -35,9 +36,10 @@ func Reptetive(a []int) []int {
 	return rep
 
 }
+
 //This solution has O(logn) time Complexity
 
-func main(){
-	num:={2,3,4,5,5,4,7,8,9,9}
+func main() {
+	num := []int{2, 3, 4, 5, 5, 4, 7, 8, 9}
 	fmt.Println(Reptetive(num))
 }
